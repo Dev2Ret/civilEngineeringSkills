@@ -1,6 +1,3 @@
-from dotenv import load_dotenv
-load_dotenv()
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -9,7 +6,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from custom import CustomPlot
 from io import BytesIO
-from googletrans import Translator, LANGUAGES
 
 st.title("Skills")
 
