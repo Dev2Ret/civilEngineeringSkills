@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 class Tab3:
     def __init__(self):
         st.header("Configurations")

@@ -8,7 +8,13 @@ import plotly.graph_objects as go
 from io import BytesIO
 
 # ------------------ Page config ---------------------------
-st.set_page_config(page_title="Civil engineering skills stacked", page_icon=":Hamburger:")
+st.set_page_config(page_title="Civil engineering skills stacked",
+                   page_icon=":Hamburger:",
+                   menu_items={
+                    'Get Help': 'https://www.extremelycoolapp.com/help',
+                    'Report a bug': "https://www.extremelycoolapp.com/bug",
+                    'About': "# This is a header. This is an *extremely* cool app!"
+                    })
 
 st.title("Skills")
 
